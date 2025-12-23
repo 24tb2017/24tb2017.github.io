@@ -7,18 +7,6 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <style>
-  html, body {
-    
-    background-color: #ffc0cb;
-    overflow: hidden;
-  }
-
-  #unity-container {
-    background-color: #ffc0cb;
-  }
-</style>
-
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
@@ -64,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/communication10.loader.js";
+      var loaderUrl = buildUrl + "/communication11.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/communication10.data.unityweb",
-        frameworkUrl: buildUrl + "/communication10.framework.js.unityweb",
-        codeUrl: buildUrl + "/communication10.wasm.unityweb",
+        dataUrl: buildUrl + "/communication11.data.unityweb",
+        frameworkUrl: buildUrl + "/communication11.framework.js.unityweb",
+        codeUrl: buildUrl + "/communication11.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "コミュ",
